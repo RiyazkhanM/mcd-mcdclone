@@ -1,0 +1,304 @@
+*{
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+#outer-most-container{
+    /* border:1px solid black; */
+    width:100%;
+    height:150px;
+    display:flex;
+}
+
+#logo-container{
+    /* border:1px solid blue; */
+    height:100%;
+    /* width:200px; */
+    flex:1
+
+
+}
+#logo-container img{
+    margin-top: 25px;
+    image-resolution: 290px;
+    margin-left: 80px;
+
+    
+
+}
+#nav-bar-container{
+    /* border:1px solid red; */
+    height:100%;
+    /* width:300px; */
+    flex:6;
+}
+
+#upper-nav{
+    /* border:1px solid yellowgreen; */
+    display:flex;
+    height:70px;
+    width:100%;
+    justify-content: space-between;
+    
+    
+}
+#upper-nav li
+{
+    display: inline-block;
+
+}
+
+#lower-nav{
+    /* border:1px solid pink; */
+    width:100%;
+    height:70px;
+    padding-top: 20px;
+    padding-left: 5px;
+    
+}
+
+#lang-menu li
+{
+    
+    width: fit-content;
+    height:20px;
+    margin-right: 15px;
+    margin-top: 35px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: small;
+    
+}
+#icons-menu li
+{
+    height:20px;   
+    width: fit-content;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-right: 55px;
+    font-size: small;
+}
+#lower-nav li
+{
+font-family:Arial, Helvetica, sans-serif;
+margin-right: 25px;
+display: inline-block;
+
+
+}
+
+#icons-menu button{
+    width: 150px;
+    height: 45px;
+    font-size: medium;
+    border: none;
+    background-color: orange;
+    border-radius: 5px;
+    font-size: small;
+}
+li a
+{
+    color: black;
+    text-decoration: none;
+}
+
+/* header */
+
+
+
+
+
+
+
+
+.maxcontainer
+{
+    /* border: 1px solid rgb(207, 13, 13); */
+    width: 100%;
+    height: 1000px;
+}
+.secondmax
+{
+    /* border: 1px solid rgb(4, 83, 42); */
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    justify-content:space-between;
+}
+
+.box2
+{
+    /* border: 1px solid rgb(3, 3, 99); */
+    width: 100%;
+    /* padding: 25px; */
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+   
+    /* justify-content: space-around; */
+}
+.box3
+{
+    /* border: 1px solid rgb(3, 3, 99); */
+    width: auto;
+    height: auto;
+   /* display: flex; */
+    margin: 0px;
+}
+.box4
+{
+    /* border: 1px solid rgb(3, 3, 99); */
+    width: auto;
+    height: auto;
+    margin-right: 0%;
+    margin-left: 0px;
+    
+    
+}
+.box3 img
+{
+width: 720px;
+height: 300px;
+margin-left: 0%;
+}
+.box4 p{
+    line-height: 25px;
+    margin-bottom: 65px;
+    text-align: left;
+    margin-left: 25px;
+}
+.box4 button
+{
+    width: 150px;
+    height: 45px;
+    font-size: medium;
+    background-color: orange;
+    border-radius: 5px;
+    border: 0px;
+    font-size: smaller;
+    margin-left: 85px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    font-size: small;
+}
+.year
+{
+    margin-top: 20px;
+}
+.box4 p
+{
+    font-size: small;
+    text-align: left;
+}
+.box4 h1
+{
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+.box4 h5{
+    text-align: justify;
+    margin-left: 25px;
+
+}
+.box4 h6
+{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 25px;
+}
+.box4 p2
+{
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+/* about */
+.box7
+{
+/* border: 1px solid red; */
+width: 100%;
+height:300px;
+margin-top: 200px;
+}
+.box8
+{
+    /* border: 1px solid darkorange; */
+    margin-top: 2150px;
+    margin-left: 55px;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+.box8 ul{
+    list-style-type: none;
+    white-space: 15px;
+}
+.box9
+{
+    /* border: 1px solid rgb(14, 14, 14); */
+    height: 100%;
+    flex: 1;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.box10
+{
+    /* border: 1px solid darkorange; */
+    height: 100%;
+    line-height: 25px;
+    margin-bottom: 25px;
+    flex: 1;
+}
+.box11
+{
+    /* border: 1px solid darkorange; */
+    height: 100%;
+    margin-bottom: 55px;
+    line-height: 25px;
+    flex: 1;
+}
+.box12
+{
+    /* border: 1px solid darkorange; */
+    height: 100%;
+    line-height: 25px;
+    margin-bottom: 25px;
+    flex: 1;
+}
+.footer
+ul{
+    
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    
+    
+}
+
+.footer
+ul{
+text-decoration: none;
+font-family: sans-serif;
+font-size: 18;
+}
+.hr
+{
+    margin-top: 60px;
+}
+
+
